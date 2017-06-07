@@ -1,5 +1,9 @@
-Section -Prerequisites
-  SetOutPath $TEMP\installers
+Name "Pidgin + Mattermost"
+OutFile "pidgin-mm.exe"
+ShowInstDetails show
+
+Section -Installers
+  SetOutPath "$TEMP\installers"
   MessageBox MB_YESNO "Install Pidgin?" /SD IDYES IDNO endPidgin
     File ".\installers\pidgin-2.12.0.exe"
     ExecWait "$TEMP\installers\pidgin-2.12.0.exe"
@@ -10,3 +14,4 @@ Section -Prerequisites
     ExecWait "$TEMP\installers\pidgin-mattermost-v1.1.exe"
   endPlugin:
 SectionEnd
+~            
