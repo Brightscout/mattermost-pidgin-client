@@ -13,4 +13,3 @@ Section -Installers
     ExecWait "$TEMP\installers\pidgin-mattermost-v1.1.exe"
   endPlugin:
 SectionEnd
-~
