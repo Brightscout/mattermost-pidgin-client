@@ -1,6 +1,5 @@
 Name "Pidgin + Mattermost"
 OutFile "pidgin-mm.exe"
-ShowInstDetails show
 
 Section -Installers
   SetOutPath "$TEMP\installers"
@@ -14,4 +13,4 @@ Section -Installers
     ExecWait "$TEMP\installers\pidgin-mattermost-v1.1.exe"
   endPlugin:
 SectionEnd
-~            
+~
