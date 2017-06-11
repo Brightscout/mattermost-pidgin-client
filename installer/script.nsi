@@ -14,6 +14,9 @@
 !define INSTALLER_NAME ${PRODUCT_NAME}-${PRODUCT_VERSION}
 !endif
 
+!define PIDGIN_VERSION "2.12.0"
+!define PIDGIN_MM_VERSION "1.1"
+
 ;
 ; MUI 1.67 Compatible
 ;
@@ -51,16 +54,16 @@
 Name "${PRODUCT_NAME} ${PRODUCT_VERSION}"
 OutFile "${INSTALLER_NAME}.exe"
 
-Section "Pidgin v2.12.0" Pidgin
+Section "Pidgin v${PIDGIN_VERSION}" Pidgin
   SetOutPath "$TEMP\installers"
-  File ".\installers\pidgin-2.12.0.exe"
-  ExecWait "$TEMP\installers\pidgin-2.12.0.exe"
+  File ".\installers\pidgin-${PIDGIN_VERSION}.exe"
+  ExecWait "$TEMP\installers\pidgin-${PIDGIN_VERSION}.exe"
 SectionEnd
 
-Section "Pidgin Mattermost Plugin v1.1" Mattermost
+Section "Pidgin Mattermost Plugin v${PIDGIN_MM_VERSION}" Mattermost
   SetOutPath "$TEMP\installers"
-  File ".\installers\pidgin-mattermost-v1.1.exe"
-  ExecWait "$TEMP\installers\pidgin-mattermost-v1.1.exe"
+  File ".\installers\pidgin-mattermost-v${PIDGIN_MM_VERSION}.exe"
+  ExecWait "$TEMP\installers\pidgin-mattermost-v${PIDGIN_MM_VERSION}.exe"
 SectionEnd
 
 ;
