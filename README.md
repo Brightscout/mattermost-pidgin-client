@@ -4,10 +4,14 @@ having to download and run two separate installers, this project bundles the
 main Pidgin installer along with the Pidgin-Mattermost plugin to make your life
 just a little easier.
 
+[Get It Here](https://github.com/Brightscout/pidgin-mattermost-installer/releases)
+
 The current version includes:
 
 * [Pidgin Client version v2.12.0](https://sourceforge.net/projects/pidgin/)
 * [Pidgin-Mattermost Plugin v1.1](https://github.com/EionRobb/purple-mattermost/releases/tag/v1.1)
+
+
 
 ## How to build
 We use [NSIS](http://nsis.sourceforge.net/Main_Page) to generate the windows installers. The build runs on linux through a [Docker image](https://hub.docker.com/r/brightscout/pidgin-mattermost-installer-build/). Here are the steps to build a new installer:
