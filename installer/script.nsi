@@ -5,7 +5,7 @@
 !define PRODUCT_WEB_SITE "https://github.com/Brightscout/pidgin-mattermost-installer"
 
 !ifndef PRODUCT_NAME
-!define PRODUCT_NAME "Pidgin+Mattermost"
+!define PRODUCT_NAME "Pidgin-Mattermost-Bundle"
 !endif
 !ifndef PRODUCT_VERSION
 !define PRODUCT_VERSION "v1.0"
