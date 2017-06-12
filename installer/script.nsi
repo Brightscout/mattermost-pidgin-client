@@ -2,10 +2,10 @@
 ; Define constants
 ;
 !define PRODUCT_PUBLISHER "Brightscout, Inc."
-!define PRODUCT_WEB_SITE "https://github.com/Brightscout/pidgin-mattermost-installer"
+!define PRODUCT_WEB_SITE "https://github.com/Brightscout/mattermost-pidgin-client"
 
 !ifndef PRODUCT_NAME
-!define PRODUCT_NAME "Pidgin-Mattermost-Bundle"
+!define PRODUCT_NAME "Mattermost-Pidgin-Client"
 !endif
 !ifndef PRODUCT_VERSION
 !define PRODUCT_VERSION "v1.0"
