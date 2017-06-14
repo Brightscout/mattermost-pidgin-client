@@ -38,3 +38,7 @@ To update the embedded installers you will need to:
 !define PIDGIN_VERSION "2.12.0"
 !define PIDGIN_MM_VERSION "1.1"
 ```
+
+---
+
+Made with &#9829; by [Brightscout](http://www.brightscout.com)
