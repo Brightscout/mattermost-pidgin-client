@@ -8,10 +8,8 @@ just a little easier.
 
 The current version includes:
 
-* [Pidgin Client version v2.12.0](https://sourceforge.net/projects/pidgin/)
+* [Pidgin Client v2.12.0 (offline)](https://sourceforge.net/projects/pidgin/files/Pidgin/2.12.0/pidgin-2.12.0-offline.exe/download)
 * [Pidgin-Mattermost Plugin v1.1](https://github.com/EionRobb/purple-mattermost/releases/tag/v1.1)
-
-
 
 ## How to build
 We use [NSIS](http://nsis.sourceforge.net/Main_Page) to generate the windows installers. The build runs on linux through a [Docker image](https://hub.docker.com/r/brightscout/mattermost-pidgin-client-build/). Here are the steps to build a new installer:
