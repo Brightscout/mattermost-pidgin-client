@@ -8,7 +8,7 @@
 !define PRODUCT_NAME "Mattermost-Pidgin-Client"
 !endif
 !ifndef PRODUCT_VERSION
-!define PRODUCT_VERSION "v1.0"
+!define PRODUCT_VERSION "v1.1"
 !endif
 !ifndef INSTALLER_NAME
 !define INSTALLER_NAME ${PRODUCT_NAME}-${PRODUCT_VERSION}
@@ -56,8 +56,8 @@ OutFile "${INSTALLER_NAME}.exe"
 
 Section "Pidgin v${PIDGIN_VERSION}" Pidgin
   SetOutPath "$TEMP\installers"
-  File ".\installers\pidgin-${PIDGIN_VERSION}.exe"
-  ExecWait "$TEMP\installers\pidgin-${PIDGIN_VERSION}.exe"
+  File ".\installers\pidgin-${PIDGIN_VERSION}-offline.exe"
+  ExecWait "$TEMP\installers\pidgin-${PIDGIN_VERSION}-offline.exe"
 SectionEnd
 
 Section "Pidgin Mattermost Plugin v${PIDGIN_MM_VERSION}" Mattermost
