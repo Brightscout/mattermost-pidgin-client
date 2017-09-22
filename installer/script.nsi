@@ -8,14 +8,14 @@
 !define PRODUCT_NAME "Mattermost-Pidgin-Client"
 !endif
 !ifndef PRODUCT_VERSION
-!define PRODUCT_VERSION "v1.1"
+!define PRODUCT_VERSION "v1.2"
 !endif
 !ifndef INSTALLER_NAME
 !define INSTALLER_NAME ${PRODUCT_NAME}-${PRODUCT_VERSION}
 !endif
 
 !define PIDGIN_VERSION "2.12.0"
-!define PIDGIN_MM_VERSION "1.1"
+!define PIDGIN_MM_VERSION "1.2"
 
 ;
 ; MUI 1.67 Compatible
